@@ -1,6 +1,6 @@
 # npmtest-promise-mysql
 
-#### test coverage for  [promise-mysql (v3.0.1)](https://github.com/lukeb-uk/node-promise-mysql#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-promise-mysql.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-promise-mysql) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-promise-mysql.svg)](https://travis-ci.org/npmtest/node-npmtest-promise-mysql)
+#### basic test coverage for  [promise-mysql (v3.0.1)](https://github.com/lukeb-uk/node-promise-mysql#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-promise-mysql.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-promise-mysql) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-promise-mysql.svg)](https://travis-ci.org/npmtest/node-npmtest-promise-mysql)
 
 #### A bluebird wrapper for node-mysql
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-promise-mysql/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-promise-mysql/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-promise-mysql/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-promise-mysql/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-promise-mysql/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-promise-mysql/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-promise-mysql/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-promise-mysql/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-promise-mysql/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-promise-mysql/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-promise-mysql/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-promise-mysql/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
     "scripts": {
         "test": "./node_modules/mocha/bin/_mocha -R spec"
     },
-    "version": "3.0.1"
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
